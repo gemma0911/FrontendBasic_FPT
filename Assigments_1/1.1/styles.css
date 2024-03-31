@@ -1,0 +1,116 @@
+body, html {
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 20px;
+    gap: 10px;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(103, 57, 57);
+    padding: 20px;
+    height: 10vh;
+}
+
+.navigation {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(184, 12, 12);
+    padding: 20px;
+    height: 5vh;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    height: 25vh;
+    background-color: blue;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(103, 57, 57);
+    padding: 20px;
+    height: 10vh;
+}
+
+nav {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(179, 167, 167);
+    padding: 20px;
+    text-align: center;
+    height: 5vh;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(225, 126, 126);
+    padding: 20px;
+    text-align: center;
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    height: 65vh;
+}
+
+.sidebar {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: aqua;
+    flex: 4;
+}
+
+.body {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: blue;
+    flex: 6;
+}
+
+footer {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(225, 126, 126);
+    padding: 20px;
+    text-align: center;
+    height: 10vh;
+}
+
+.text-area {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(225, 126, 126);
+    padding: 20px;
+    text-align: center;
+    height: 10vh;
+}

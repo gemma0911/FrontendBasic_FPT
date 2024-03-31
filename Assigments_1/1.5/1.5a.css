@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+}
+
+.box {
+    flex: 1;
+    gap: 10px;
+}
+
+.box-1 {
+    flex: 10vh;
+    background-color: blue;
+}
+
+.box-2 {
+    height: 60vh;
+    background-color: aqua;
+}
+
+.box-3 {
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        gap: 10px;
+    }
+
+    .box-1 {
+        flex: 1 0 20vh;
+        background-color: blue;
+    }
+
+    .box {
+        display: flex;
+        flex: 1 0 80vh;
+    }
+
+    .box-2 {
+        flex: 8;
+        order: 1;
+        height: 80vh;
+    }
+
+    .box-3 {
+        flex: 2;
+        height: 80vh;
+    }
+}

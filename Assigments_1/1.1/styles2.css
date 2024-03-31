@@ -1,0 +1,71 @@
+body, html {
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 10px;
+}
+
+.row-1 {
+    display: flex;
+    height: 10vh;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(103, 57, 57);
+    padding: 20px;
+}
+
+.navigation {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(184, 12, 12);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    height: 20vh;
+    background-color: blue;
+}
+
+.text-area {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    height: 15vh;
+    background-color: rgb(63, 63, 117);
+}
+
+.row-2 {
+    justify-content: space-between;
+    display: flex;
+    height: 45vh;
+}
+
+.box {
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(165, 165, 181);
+}
+
+footer {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(225, 126, 126);
+    padding: 20px;
+    text-align: center;
+    height: 10vh;
+}
