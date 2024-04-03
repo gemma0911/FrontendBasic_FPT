@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+}
+
+.box {
+    display: flex;
+}
+
+.image {
+    width: 50px;
+    height: auto;
+}

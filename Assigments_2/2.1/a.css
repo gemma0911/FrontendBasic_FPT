@@ -1,0 +1,38 @@
+.container {
+    margin: 20px;
+}
+
+.header {
+    background-color: rgb(166, 162, 162);
+    padding: 50px;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: blue;
+}
+
+.box {
+    display: flex;
+    padding: 50px;
+    gap: 15px;
+}
+
+.item {
+    flex: 1;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.button-item {
+    background-color: rgb(139, 135, 135);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
